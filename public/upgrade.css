@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1d1d1d;
+}
+
+.plans {
+    margin-top: 20px;
+    display: flex;
+}
+
+.plan {
+    background-color: #4a1751;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.plan h2 {
+    margin-bottom: 15px;
+}
+
+.plan p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.MostPopular {
+    background-color: #4a1751;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.MostPopular h2 {
+    margin-bottom: 15px;
+}
+
+.MostPopular p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.MostPopular ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.MostPopular ul li {
+    margin: 10px 0;
+}
+
+.MostPopular button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #ffffff;
+}
+
+.plan button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
