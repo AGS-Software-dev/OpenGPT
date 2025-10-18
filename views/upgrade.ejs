@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenGPT - Upgrade Plan</title>
+    <link rel="stylesheet" href="/public/upgrade.css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+    var stripePublicKey = <%- JSON.stringify(stripePublicKey) %>;
+    </script>
+    <script src="/public/pay.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Upgrade Your OpenGPT Experience!</h1>
+        <p>Choose a plan that suits your needs and unlock premium features.</p>
+        <div class="plans">
+            <div class="plan">
+                <h2>Plus</h2>
+                <p>$29.00</p>
+                <ul>
+                    <li>Access to 400 tokens</li>
+                    <li>Access to OpenGPT-Plus</li>
+                    <li>24/6 Support</li>
+                    <li>Access to OpenGPT keys</li>
+                </ul>
+                <button class="selectPlanButton" data-plan="plus">Buy</button>
+            </div>
+            <div class="MostPopular">
+                <h2>Pro</h2>
+                <p>$39.00</p>
+                <ul>
+                    <li>Access to 1000 tokens</li>
+                    <li>Access to OpenGPT-Professional</li>
+                    <li>Priority support</li>
+                    <li>Advanced text generator</li>
+                    <li>Network Locker 1</li>
+                    <li>Account Hasher 1</li>
+                    <li>Access to 4000 memory tokens</li>
+                    <li>Developer Assistent mode 1</li>
+                    <li>Visual Studio/VS Code plugin 1</li>
+                    <li>TTL Support 1</li>
+                </ul>
+                <button class="selectPlanButton" data-plan="pro">Buy</button>
+            </div>
+            <div class="plan">
+                <h2>Assistant</h2>
+                <p>$78.99</p>
+                <ul>
+                    <li>All Pro features</li>
+                    <li>Dedicated account manager</li>
+                    <li>Custom integrations</li>
+                    <li>24/7 premium support</li>
+                    <li>The most advanced version of OpenGPT</li>
+                    <li>AGS Game hits</li>
+                    <li>STL and RST</li>
+                    <li>End-to-End Encription</li>
+                    <li>Network Locker 2</li>
+                    <li>Account Hasher 2</li>
+                    <li>Access to 10000 memory tokens</li>
+                    <li>Developer Assistent mode 2</li>
+                    <li>Visual Studio/VS Code plugin 2</li>
+                    <li>TTL Support 2</li>
+                </ul>
+                <button class="selectPlanButton" data-plan="assistent">Buy</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
