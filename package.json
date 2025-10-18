@@ -1,0 +1,19 @@
+{
+  "name": "opengpt",
+  "version": "0.0.1",
+  "description": "This is a free and open source LLM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoni Dylewski",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
